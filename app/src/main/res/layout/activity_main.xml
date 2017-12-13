@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:lee="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.administrator.shixianyunbiaoqian.MainActivity">
+
+    <com.example.administrator.shixianyunbiaoqian.TagsLayout
+        android:id="@+id/image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        lee:tagHorizontalSpace="10dp"
+        lee:tagVerticalSpace="10dp"
+        >
+    </com.example.administrator.shixianyunbiaoqian.TagsLayout>
+
+</android.support.constraint.ConstraintLayout>
